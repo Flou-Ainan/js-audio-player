@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Saira+Condensed:wght@200&display=swap" rel="stylesheet">
+        
+        <style>
+            body {
+                padding-top: 20px;
+                text-align: center;
+                font-size: 22pt;
+                font-family: 'Bebas Neue', cursive;
+            }
+            h1{
+                font-size: 70pt;
+                padding-bottom: 20px;
+            }
+            h4 {
+                font-family: 'Saira Condensed', sans-serif;
+            }
+            p {
+                margin: 4pt -4pt;
+            }
+            button {
+                background-color: #eee;
+                font-size: 17pt;
+                border-radius: 30px;
+                border-width: 2px;
+                border-color: rgba(200,200,200,0.5);
+                padding: 8px;
+            }
+        </style>
+    </head>
+<body>
+    <h1> 🎧️ </h1>
+    
+    <!--        MUSICA 01     -->    
+
+    <audio id="musica01">
+      <source src="https://filesamples.com/samples/audio/mp3/sample4.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <p class="audio" id="playerMusica01">Música 01</p>
+
+    <button onclick="playAudio('musica01')" type="button">&nbsp;▶️&nbsp;</button>
+    <button onclick="pauseAudio('musica01')" type="button">&nbsp;⏸️&nbsp;</button>
+    <button onclick="stopAudio('musica01')" type="button">&nbsp;⏹️&nbsp;</button>
+    <br><br>
+
+    <!--        MUSICA 02     -->    
+
+    <audio id="musica02">
+      <source src="https://filesamples.com/samples/audio/mp3/Symphony%20No.6%20(1st%20movement).mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <p class="audio" id="playerMusica02">Música 02</p>
+
+    <button onclick="playAudio('musica02')" type="button">&nbsp;▶️&nbsp;</button>
+    <button onclick="pauseAudio('musica02')" type="button">&nbsp;⏸️&nbsp;</button>
+    <button onclick="stopAudio('musica02')" type="button">&nbsp;⏹️&nbsp;</button>
+    <br><br>  
+
+    <!--        MUSICA 03     -->    
+
+    <audio id="musica03">
+      <source src="https://filesamples.com/samples/audio/mp3/sample3.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <p class="audio" id="playermusica03">Música 03</p>
+
+    <button onclick="playAudio('musica03')" type="button">&nbsp;▶️&nbsp;</button>
+    <button onclick="pauseAudio('musica03')" type="button">&nbsp;⏸️&nbsp;</button>
+    <button onclick="stopAudio('musica03')" type="button">&nbsp;⏹️&nbsp;</button>
+    <br><br>
+
+
+    <span><h4>By: <a href="http://flowoffice.eu5.net/">Flou Ainan</a></h4></span>
+
+</body>
+    
+<script src="player.js"></script>
+</html>
